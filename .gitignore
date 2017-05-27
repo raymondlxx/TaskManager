@@ -6,3 +6,5 @@ build/
 [Bb]in/
 [Oo]bj/
 *。user
+src/TaskManagerApi/.vs/TaskManagerApi/v14/
+src/TaskManagerApi/TaskManagerApi/TaskManagerApi.csproj.user
