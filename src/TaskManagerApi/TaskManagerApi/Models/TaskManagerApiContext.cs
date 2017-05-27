@@ -20,5 +20,11 @@ namespace TaskManagerApi.Models
         }
 
         public System.Data.Entity.DbSet<TaskManagerApi.Models.LProject> LProjects { get; set; }
+
+        public System.Data.Entity.DbSet<TaskManagerApi.Models.LTask> LTasks { get; set; }
+
+        public System.Data.Entity.DbSet<TaskManagerApi.Models.LTaskGroup> LTaskGroups { get; set; }
+
+        public System.Data.Entity.DbSet<TaskManagerApi.Models.LTransaction> LTransactions { get; set; }
     }
 }

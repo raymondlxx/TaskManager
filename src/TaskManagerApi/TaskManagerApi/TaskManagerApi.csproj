@@ -184,6 +184,9 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LProjectsController.cs" />
+    <Compile Include="Controllers\LTaskGroupsController.cs" />
+    <Compile Include="Controllers\LTasksController.cs" />
+    <Compile Include="Controllers\LTransactionsController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -251,6 +254,21 @@
     <Content Include="Views\LProjects\Details.cshtml" />
     <Content Include="Views\LProjects\Edit.cshtml" />
     <Content Include="Views\LProjects\Index.cshtml" />
+    <Content Include="Views\LTasks\Create.cshtml" />
+    <Content Include="Views\LTasks\Delete.cshtml" />
+    <Content Include="Views\LTasks\Details.cshtml" />
+    <Content Include="Views\LTasks\Edit.cshtml" />
+    <Content Include="Views\LTasks\Index.cshtml" />
+    <Content Include="Views\LTaskGroups\Create.cshtml" />
+    <Content Include="Views\LTaskGroups\Delete.cshtml" />
+    <Content Include="Views\LTaskGroups\Details.cshtml" />
+    <Content Include="Views\LTaskGroups\Edit.cshtml" />
+    <Content Include="Views\LTaskGroups\Index.cshtml" />
+    <Content Include="Views\LTransactions\Create.cshtml" />
+    <Content Include="Views\LTransactions\Delete.cshtml" />
+    <Content Include="Views\LTransactions\Details.cshtml" />
+    <Content Include="Views\LTransactions\Edit.cshtml" />
+    <Content Include="Views\LTransactions\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

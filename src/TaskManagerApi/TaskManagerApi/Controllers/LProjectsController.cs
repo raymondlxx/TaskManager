@@ -46,10 +46,11 @@ namespace TaskManagerApi.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ProjectID,Name")] LProject lProject)
+        public ActionResult Create([Bind(Include = "Name")] LProject lProject)
         {
             if (ModelState.IsValid)
             {
+                lProject.ProjectID = Guid.NewGuid().ToString("N");
                 db.LProjects.Add(lProject);
                 db.SaveChanges();
                 return RedirectToAction("Index");

@@ -59,3 +59,5 @@ D:\leo\works\TaskManager\src\TaskManagerApi\TaskManagerApi.Tests\obj\Debug\TaskM
 D:\leo\works\TaskManager\src\TaskManagerApi\TaskManagerApi.Tests\obj\Debug\TaskManagerApi.Tests.pdb
 D:\leo\works\TaskManager\src\TaskManagerApi\TaskManagerApi.Tests\bin\Debug\EntityFramework.dll
 D:\leo\works\TaskManager\src\TaskManagerApi\TaskManagerApi.Tests\bin\Debug\EntityFramework.xml
+D:\leo\works\TaskManager\src\TaskManagerApi\TaskManagerApi.Tests\bin\Debug\TaskManagerApi.dll.config
+D:\leo\works\TaskManager\src\TaskManagerApi\TaskManagerApi.Tests\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
